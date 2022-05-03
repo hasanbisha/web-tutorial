@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Website</title>
+
+        <style>
+            body {
+                margin: 0;
+            }
+
+            #schedule-page {
+                background-color: #eee;
+                padding: 20px;
+                height: 100%;
+            }
+
+            #topbar {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 20px;
+            }
+
+            #topbar .search {
+                padding: 10px;
+                border-radius: 20px;
+                border: none;
+                color: #333;
+                width: 200px;
+                outline: none;
+                background: #ddd;
+            }
+
+            #topbar .profile-button {
+                background-color: transparent;
+                padding: 0;
+                border: none;
+                cursor: pointer; 
+            }
+
+            #main {
+                display: flex;
+            }
+
+            .noname .title {
+                font-size: 32px;
+            }
+
+            .course {
+                background-color: #fff;
+                border-radius: 8px;
+                display: flex;
+                padding: 8px;
+            }
+
+            .course img {
+                height: 100px;
+                width: 120px;
+                margin-right: 8px;
+                border-radius: 8px;
+            }
+
+            .course .content {
+                flex: 100%;
+            }
+
+            .course .content .time {
+                color: #777;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="schedule-page">
+            <section id="topbar">
+                <input class="search" placeholder="Search something..." />
+
+                <div>
+                    <img class="notification-icon" />
+
+                    <button class="profile-button">
+                        Hi, Fero
+                    </button>
+                </div>
+            </section>
+
+            <section id="main">
+                <div class="noname">
+                    <h1 class="title">Course Schedule</h1>
+                    calendar
+
+                    <h3>Today Courses</h3>
+
+                    <div class="course-list">
+                        <div class="course">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZVLTQ9KQIyM%2Fmaxresdefault.jpg&f=1&nofb=1" />
+                            <div class="content">
+                                <p class="time">08.00 - 10.00</p>
+                                <p>Nxirre ta shohi</p>
+                            </div>
+                        </div>
+
+                        <div class="course">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZVLTQ9KQIyM%2Fmaxresdefault.jpg&f=1&nofb=1" />
+                            <div class="content">
+                                <p class="time">08.00 - 10.00</p>
+                                <p>Nxirre ta shohi</p>
+                            </div>
+                        </div>
+
+                        <div class="course">
+                            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2FZVLTQ9KQIyM%2Fmaxresdefault.jpg&f=1&nofb=1" />
+                            <div class="content">
+                                <p class="time">08.00 - 10.00</p>
+                                <p>Nxirre ta shohi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
